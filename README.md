@@ -5,8 +5,8 @@ It's a simple single page application to find album artwork from the iTunes API 
 
 ## Install and test locally
 
-1. `$ git clone https://github.com/remyr/iTunes-artwork-finder.git`
-2. `$ cd iTunes-artwork-finder`
-3. `$ npm install`
-4. `$ npm run start`
+1. `git clone https://github.com/remyr/iTunes-artwork-finder.git`
+2. `cd iTunes-artwork-finder`
+3. `npm install`
+4. `npm run start`
 5. visit `http://localhost:8000`
