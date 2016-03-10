@@ -4,7 +4,7 @@
   "description": "Simple ReactJS single page application to find album artwork from iTunes database",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 8000",
+    "start": "http-server ./dist -p 8000",
     "dev": "webpack-dev-server",
     "prod": "webpack -p --config webpack.config.prod.js"
   },
