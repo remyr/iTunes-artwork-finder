@@ -15,9 +15,8 @@ let actions = {
                 dataType: 'jsonp',
                 cache: true
             }).done(function (data) {
-                console.log(data);
                 dispatch(actions.searchToState(data.results));
-            }).fail(console.log("failed"));
+            }).fail();
         }
     },
 

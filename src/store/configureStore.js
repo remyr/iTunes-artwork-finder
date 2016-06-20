@@ -5,7 +5,11 @@ import thunk from 'redux-thunk'
 
 
 let finalCreateStore = compose(
-    applyMiddleware(thunk, logger())
+    // Middleware for development
+    // applyMiddleware(thunk, logger())
+
+    // Middleware for prod
+    applyMiddleware(thunk)
 )(createStore)
 
 function configureStore(initialState = {}) {
